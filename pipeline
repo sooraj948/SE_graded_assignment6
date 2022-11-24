@@ -1,0 +1,29 @@
+pipeline { 
+    agent any
+    stages {
+        stage('Clone Git') {
+            steps {
+                git 'https://github.com/sooraj948/SE_graded_assignment6.git'
+            }
+        }
+        stage('Build Code') {
+            steps {
+                sh "chmod u+x Prog1.py"
+                sh "./Prog1.py"
+            }
+        }
+        stage('Build Code 2') {
+            steps {
+                sh "chmod u+x Concat.py"
+                sh "./Concat.py"
+            }
+        }
+        
+         stage('Test Code') {
+                steps {
+                    sh "chmod u+x test.py"
+                    sh "./test.py"
+                }
+            }
+    } 
+}
