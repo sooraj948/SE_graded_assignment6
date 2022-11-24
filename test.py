@@ -21,7 +21,9 @@ class TestSum(unittest.TestCase):
 
         self.assertEqual(result_1, 20)
         self.assertEqual(result_2, 100)
-        self.assertEqual(result_3,"hi there")
+        self.assertEqual(result_3,"Hithere")
+        self.assertEqual(result_3,"Hoyaa")
+
 
 if __name__ == '__main__':
     unittest.main()
