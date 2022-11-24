@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
 
        result2 = add_string(s,t)
 
-       self.assertEqual(result2,"Wassup")
+       self.assertEqual(result2,"Wassup ")
        self.assertEqual(result2,"Hi Sooraj!")
     
     
