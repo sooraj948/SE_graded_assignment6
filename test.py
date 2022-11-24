@@ -1,7 +1,7 @@
 import unittest
 
-from addition import add
-from concatenate import add_string
+from Prog1 import add
+from Prog2 import add_string
 
 class Test(unittest.TestCase):
     def test_functions(self):
