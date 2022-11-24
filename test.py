@@ -13,8 +13,9 @@ class TestSum(unittest.TestCase):
         y = 10
         result_1 = add(x,y)
 
-        
-        result_2 = add(n)
+        x = 80
+        y = 20
+        result_2 = add(x,y)
 
         result_3 = add_string("Hi","there")
 
