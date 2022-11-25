@@ -23,6 +23,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(result_2, 100)
         self.assertEqual(result_3,"Hithere")
         self.assertEqual(result_3,"Hoyaa")
+        self.assertEqual(result_3,"lol")
 
 
 if __name__ == '__main__':
